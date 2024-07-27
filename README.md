@@ -26,9 +26,8 @@ This project uses MongoDB for data storage, EJS for server-side rendering, and i
 
 - 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/pintuknwr/url-shortner.git
-   cd url-shortener
+ https://github.com/pintuknwr/url-shortner.git
+  
 
 
 
