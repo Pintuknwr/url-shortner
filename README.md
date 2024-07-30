@@ -1,13 +1,13 @@
 # URL Shortener
 
 A simple URL shortener application that takes a valid URL from the user and redirects to the original URL. 
-This project uses MongoDB for data storage, EJS for server-side rendering, and incorporates stateful authentication.
+This project uses MongoDB for data storage, EJS for server-side rendering, and incorporates stateless authentication.
 
 ## Features
 
 - **URL Shortening**: Convert long URLs into shorter, user-friendly versions.
 - **Redirection**: Redirect users to the original URL when the shortened URL is accessed.
-- **Authentication**: Secure your application with stateful authentication.
+- **Authentication**: Secure your application with jsonwebtoken .
 - **Database Storage**: Store URLs and user data in a MongoDB database.
 
 ## Technologies Used
@@ -15,7 +15,7 @@ This project uses MongoDB for data storage, EJS for server-side rendering, and i
 - **Backend**: Node.js with Express.js
 - **Frontend**: EJS (Embedded JavaScript Templating)
 - **Database**: MongoDB
-- **Authentication**: Stateful authentication using sessions
+- **Authentication**: Stateless authentication using token.
 
 ## Getting Started
 
